@@ -1,0 +1,175 @@
+#title {
+    background-color: rgb(197, 180, 149);
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;  
+}
+
+
+h3 {
+    
+    font-weight: bold;
+}
+
+p {
+    color: #afafaf;
+}
+
+/* Heading  */
+
+.big-heading {
+    font-family: "montserrat-black";
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation bar  */
+
+.navbar-brand {
+    font-family: 'Dangrek', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+  
+}
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+
+
+/* download button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image  */
+
+.image {
+    border-radius: 10%;
+   position: absolute;
+   right: 20%;
+    
+}
+
+/* section  */
+
+.colored-section {
+    background-color: rgb(197, 180, 149);
+  
+}
+
+.white-section{
+
+}
+ /* Features section */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative; 
+}
+
+.Feature-title{
+    text-align: center;
+}
+
+/* Testimonial section  */
+
+#testimonials {
+  
+    text-align: center;
+   
+}
+
+.test {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+/* press section  */
+
+#press {
+    background-color: rgb(197, 180, 149);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+ .carousel {
+    padding: 7% 15%;
+ }
+
+ /* pricing section  */
+  #pricing {
+    padding: 100px;
+    text-align: center;
+  }
+  .pricing {
+    padding: 3% 2%;
+  }
+
+  .price-text{
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+
+  /* CTA section  */
+
+  #cta {
+    background-color: rgb(197, 180, 149);
+    padding: 7% 15%;
+    text-align: center;
+  }
+
+  .cta-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+  /* footer section  */
+  #footer {
+    padding: 7% 15%;
+    text-align: center;
+  }
+
+  @media (max-width:1028px)
+  {
+
+    #title {
+        text-align: center;
+    }
+    .image {
+        position: static;
+        transform: rotate(0);
+    }
+  }
